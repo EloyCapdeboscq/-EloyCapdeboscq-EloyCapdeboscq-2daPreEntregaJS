@@ -57,7 +57,7 @@ let totalPrecioConIva = arrayProductosConIva.reduce((acumulador, producto) => ac
 console.log("Valor total del stock disonible con iva: $" + totalPrecioConIva)
 
 function mostrarTolalConIva(totalPrecioConIva){
-    alert("Valor total del stock disonible con iva: $" + totalPrecioConIva)
+    alert(nombreUsuario + ", valor total del stock disonible con iva: $" + totalPrecioConIva)
 }
 mostrarTolalConIva(totalPrecioConIva);
 
@@ -65,6 +65,6 @@ let totalPrecioSinIva = arrayProductos.reduce((acumulador, producto) => acumulad
 console.log("Valor total del stock disonible sin iva: $" + totalPrecioSinIva)
 
 function mostrarTolalSinIva(totalPrecioSinIva){
-    alert("Valor total del stock disonible sin iva: $" + totalPrecioSinIva)
+    alert(nombreUsuario + ", valor total del stock disonible sin iva: $" + totalPrecioSinIva)
 }
 mostrarTolalSinIva(totalPrecioSinIva);
